@@ -12,6 +12,7 @@ int main()
     
     printf("%p\n", "apple"+1);
     printf("다섯번째 문자값 %c\n", *("apple" + 4));  
+    printf("다섯번째 문자값 %c\n", "apple"[4]);  
     
     return 0;
 }
